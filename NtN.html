@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tempData</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="NtN_psf.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Raleway">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="NtN_logic.js"></script>
+</head>
+
+<body>
+    <div class="main_div">
+    </div>
+    <div class="main_1">
+        <div class="main_1_1">
+            <div class="main_1_12">
+                <span>
+                    <img src="images/logo.svg" alt="logo">
+                </span>
+            </div>
+            <div class="main_1_13">
+                <div class="main_113">
+                    <div>
+                        <button type="button" class="btn btn-success" onclick="higPara()">
+                            Hig
+                        </button>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-success" onclick="lowPara()">
+                            Low
+                        </button>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-success" onclick="medPara()">
+                            Med
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_1_2">
+            <div class="main_112">
+                <div  class="m2">
+                    You have used <code id="msize">some</code> of your storage
+                </div>
+                <div class="m3">
+                    <div class="m3_1" id="m31">
+                        <div class="m3_12" id="m312">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="m4">
+                    <div>
+                        <code>0GB</code>
+                    </div>
+                    <div>
+                        <code>100GB</code>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main_1">
+            <input type="file" id="myFile">
+            <br>
+            <button onclick='processFile()'>Process</button>
+            <br>
+        </div>
+
+    </div>
+</body>
+
+</html>
