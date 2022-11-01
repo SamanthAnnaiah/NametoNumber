@@ -1,7 +1,6 @@
 let i = 0
 let type = "z"
 
-import fetch from 'node-fetch';
 import {pokenames} from './ext.js';
 import {name} from './ext.js';
 
